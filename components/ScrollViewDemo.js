@@ -3,7 +3,7 @@ import { Movie } from "./Movie";
 import { movies } from "../data/movies";
 
 export function ScrollViewDemo() {
-  console.log(movies);
+  // console.log(movies);
   return (
     <ScrollView>
       {movies.map((movie) => {
