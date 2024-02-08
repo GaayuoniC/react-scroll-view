@@ -12,7 +12,7 @@ export function Movie({ title, image, tagline }) {
           width: 300,
           height: 250,
 
-          borderRadius: 8,
+          borderRadius: 6,
         }}
       />
       <Text style={{ fontStyle: "italic", fontSize: 20 }}>{tagline}</Text>
